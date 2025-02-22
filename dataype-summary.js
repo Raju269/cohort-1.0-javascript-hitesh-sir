@@ -42,3 +42,12 @@ function addition(){
 }
 addition();
 console.log(addition());
+
+// ++++++++++++++++++++++++++++
+// stack (primitive) and heap (non-primitive)
+
+let myProjectName = "Ravane";
+let anotherProjectName = myProjectName;
+anotherProjectName = "eventspages";
+console.log(myProjectName);
+console.log(anotherProjectName);
